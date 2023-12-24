@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="40.601" tests="4" skipped="0" failures="3" errors="0">
+<testcase classname="User is able to search items" name="Search items on etsy - Example #1.1" time="11.991">
+<failure type="java.lang.AssertionError" message="The following asserts failed:
+	this is the item titles: farmhouse pottery blue white matte mug, rustic wheel thrown ceramic cup. large giant handmade mug. and it doesnt have: coffee mug expected [true] but found [false],
+	this is the item titles: handmade pottery | 12-14 oz. large mug (8 colors) and it doesnt have: coffee mug expected [true] but found [false],
+	this is the item titles: large ceramic mug, 16 ounce mug, free shipping, pottery mug, handmade mug, matte mug, handmade pottery, tea mug, and it doesnt have: coffee mug expected [true] but found [false],
+	this is the item titles: personalized 40oz tumbler with handle lid and straw, insulated engraved cup, bridesmaid proposal, gifts for her, corporate custom logo and it doesnt have: coffee mug expected [true] but found [false],
+	this is the item titles: large mug, coffee drinker, and here we go again mug, gift for tea drinker, large coffee cup, beautiful mugs, tea drinkers mug, friend gifts and it doesnt have: coffee mug expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	this is the item titles: farmhouse pottery blue white matte mug, rustic wheel thrown ceramic cup. large giant handmade mug. and it doesnt have: coffee mug expected [true] but found [false],
+	this is the item titles: handmade pottery | 12-14 oz. large mug (8 colors) and it doesnt have: coffee mug expected [true] but found [false],
+	this is the item titles: large ceramic mug, 16 ounce mug, free shipping, pottery mug, handmade mug, matte mug, handmade pottery, tea mug, and it doesnt have: coffee mug expected [true] but found [false],
+	this is the item titles: personalized 40oz tumbler with handle lid and straw, insulated engraved cup, bridesmaid proposal, gifts for her, corporate custom logo and it doesnt have: coffee mug expected [true] but found [false],
+	this is the item titles: large mug, coffee drinker, and here we go again mug, gift for tea drinker, large coffee cup, beautiful mugs, tea drinkers mug, friend gifts and it doesnt have: coffee mug expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at step_def.EtsySearchSteps.i_should_see_the_search_item_on_the_result_page(EtsySearchSteps.java:50)
+	at ✽.I should see the search item "Coffee Mug" on the result page(file:///C:/Users/hayde/PrimeTechJava/practice/src/test/resources/features/etsy.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I am on the homepage..................................................passed
+When I search "Coffee Mug"..................................................passed
+Then I should see the search item "Coffee Mug" on the result page...........failed
+And the page title should contain the searched item "Coffee Mug"............skipped
+]]></system-out>
+</testcase>
+<testcase classname="User is able to search items" name="Search items on etsy - Example #1.2" time="9.872">
+<system-out><![CDATA[
+Given I am on the homepage..................................................passed
+When I search "Soccer ball".................................................passed
+Then I should see the search item "Soccer ball" on the result page..........passed
+And the page title should contain the searched item "Soccer ball"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="User is able to search items" name="Search items on etsy - Example #1.3" time="9.032">
+<failure type="java.lang.AssertionError" message="The following asserts failed:
+	this is the item titles: car window tinting gift certificate, license plate surprise gift voucher | self-edit with corjl - instant download printable template and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: car window tinting gift certificate, license plate surprise gift voucher | self-edit with corjl - instant download printable template and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: precut window tint kit customized for any make and model professionally recognized film supplier and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: leopard print car window decal vinyl sticker- 12in x 12in - diy window tint - outdoor decal- for cars, suvs, trucks, and window and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: 2 “pre cut” window tint patterns 2 front windows any car and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: precut nano ceramic window tint kit customized for any make and model professionally recognized film supplier and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: custom one way window film privacy decal - rear mirror covering graphic tint vinyl cling - glass cover truck vision adhesive sticker and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: 20&quot;x120&quot; tint kit uncut roll window charcoal black tint film car glass office and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: premium perforated one way vision privacy window adhesive vinyl film cutom print graphic and it doesnt have: window tints expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	this is the item titles: car window tinting gift certificate, license plate surprise gift voucher | self-edit with corjl - instant download printable template and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: car window tinting gift certificate, license plate surprise gift voucher | self-edit with corjl - instant download printable template and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: precut window tint kit customized for any make and model professionally recognized film supplier and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: leopard print car window decal vinyl sticker- 12in x 12in - diy window tint - outdoor decal- for cars, suvs, trucks, and window and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: 2 “pre cut” window tint patterns 2 front windows any car and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: precut nano ceramic window tint kit customized for any make and model professionally recognized film supplier and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: custom one way window film privacy decal - rear mirror covering graphic tint vinyl cling - glass cover truck vision adhesive sticker and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: 20"x120" tint kit uncut roll window charcoal black tint film car glass office and it doesnt have: window tints expected [true] but found [false],
+	this is the item titles: premium perforated one way vision privacy window adhesive vinyl film cutom print graphic and it doesnt have: window tints expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at step_def.EtsySearchSteps.i_should_see_the_search_item_on_the_result_page(EtsySearchSteps.java:50)
+	at ✽.I should see the search item "Window tints" on the result page(file:///C:/Users/hayde/PrimeTechJava/practice/src/test/resources/features/etsy.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I am on the homepage..................................................passed
+When I search "Window tints"................................................passed
+Then I should see the search item "Window tints" on the result page.........failed
+And the page title should contain the searched item "Window tints"..........skipped
+]]></system-out>
+</testcase>
+<testcase classname="User is able to search items" name="Search items on etsy - Example #1.4" time="9.254">
+<failure type="java.lang.AssertionError" message="The following asserts failed:
+	this is the item titles: personalized embroidery bag, custom text tote bag, handmade shoulder bag, drawstring bag, punch needle crossbody bag, backpack, canvas bag and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: handmade punch needle letter tote bag | cute letter tote bag | shopping tote bag | summer beach bag and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: punch needle bag, women shoulder bag, shopping bag and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: hand tufted punch needle clutch bag, embroidered hand bag,custom cotton book case,tufted women purse,personalized gift,makeup bag for her and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: vintage leather speed bag and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: custom hand punched brass tag - hand stamped key tag - key fob - pet tag - custom engraved tag - hotel key tag - custom id tag and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: g4 leather cowhide punch bag punchbag heavy bags mma punching kick boxing gloves and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: personalized makiwara punching board - karate gifts - makiwara for boxing,mma and wing chun - martial arts gift and it doesnt have: punching bag expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	this is the item titles: personalized embroidery bag, custom text tote bag, handmade shoulder bag, drawstring bag, punch needle crossbody bag, backpack, canvas bag and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: handmade punch needle letter tote bag | cute letter tote bag | shopping tote bag | summer beach bag and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: punch needle bag, women shoulder bag, shopping bag and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: hand tufted punch needle clutch bag, embroidered hand bag,custom cotton book case,tufted women purse,personalized gift,makeup bag for her and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: vintage leather speed bag and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: custom hand punched brass tag - hand stamped key tag - key fob - pet tag - custom engraved tag - hotel key tag - custom id tag and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: g4 leather cowhide punch bag punchbag heavy bags mma punching kick boxing gloves and it doesnt have: punching bag expected [true] but found [false],
+	this is the item titles: personalized makiwara punching board - karate gifts - makiwara for boxing,mma and wing chun - martial arts gift and it doesnt have: punching bag expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at step_def.EtsySearchSteps.i_should_see_the_search_item_on_the_result_page(EtsySearchSteps.java:50)
+	at ✽.I should see the search item "Punching bag" on the result page(file:///C:/Users/hayde/PrimeTechJava/practice/src/test/resources/features/etsy.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I am on the homepage..................................................passed
+When I search "Punching bag"................................................passed
+Then I should see the search item "Punching bag" on the result page.........failed
+And the page title should contain the searched item "Punching bag"..........skipped
+]]></system-out>
+</testcase>
+</testsuite>
